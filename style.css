@@ -1,0 +1,105 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selectors */
+body {
+    background-color:#9CB4CC;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+header, footer {
+    background-color: #748DA6;
+    color: #F2D7D9;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    border-bottom: 5px solid #ffffff;
+    height: 40px;
+    line-height: 40px;
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    padding: 40px 0;
+}
+
+section {
+    text-align: center;
+    margin: 30px;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    color: #D3CEDF;
+    font-size: 25px;
+    text-shadow: 2px 2px #f1f0f4;
+}
+
+a {
+    text-decoration: none;
+    color: #F2D7D9;
+    margin: 10px;
+    font-size: 15px
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #F2D7D9;
+}
+
+button {
+    font-size: 15px;
+    color: #607b96;
+    background-color: #F2D7D9;
+    margin-top: 20px;
+    padding: 5px;
+    font-family: monospace;
+}
+
+/* Class Selectors */
+.link {
+    display: inline
+}
+
+/* ID Selectors */
+#contact {
+    text-align: center;
+    padding: 17px;
+    border-radius: 10px;
+    background-color: #607b96;
+    margin-left: auto;
+    margin-right: auto;
+    color: #D3CEDF;
+    width:400px;
+}
+
+#caption {
+    color: white;
+}
